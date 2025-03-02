@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('fondo.png') repeat;
+    background-color: #0d0d0d;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+}
+.logo {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #00fff2; /* Blue color for the braces */
+}
+
+.logo {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo .braces {
+    color: #00fff2;
+    transition: all 0.3s ease;
+}
+
+.logo .highlight {
+    color: #fff;
+}
+
+.logo:hover .braces {
+    text-shadow: 0 0 5px #00fff2,
+                 0 0 10px #00fff2;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.menu a:hover {
+    color: yellow;
+}
+.highlight {
+    color: #e07bff;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.container h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+.container h1 .green {
+    color: #72e0c3;
+}
+.container h1 .purple {
+    color: #b88aff;
+}
+.container h1 .orange {
+    color: #e4a07b;
+}
+.author {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #cccccc;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #111;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
