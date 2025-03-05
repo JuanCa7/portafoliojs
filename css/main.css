@@ -71,7 +71,7 @@ body {
 }
 
 .banner-principal {
-    background: url('../assets/banner2.jpg') center/cover !important;
+    background: url('../assets/banner1-1.jpg') center/cover !important;
     position: relative;
     max-height: 500px;
     margin-bottom: 0;
@@ -153,8 +153,33 @@ body {
 .project {
     background-color: #04070a;
     color: #fff;
-    padding: 15px;
+    padding: 45px;
     margin: 10px 0;
     border-radius: 10px;
 }
 
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(114, 204, 224, 0.1);
+    background-color: #060a0f;
+    cursor: pointer;
+}
+
+.project:hover .icon {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255),
+                 0 0 10px rgb(255, 255, 255);
+}
+
+.project h3 b{
+    color: yellow;
+}
+
+.project .icon{
+    font-size: 25px;
+    color: #cccccc;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
